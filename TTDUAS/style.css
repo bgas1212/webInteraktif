@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background-image: url(img/20230312_0002.jpg);
+}
+
+.nav{
+    position: fixed;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .nav h1{
+    
+} */
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav li{
+    list-style: none;
+    padding: 0.5rem 1.5rem;
+    margin: 0 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    box-shadow: 4px 4px 10px grey ;
+    border-radius: 50px;
+    
+}
+ /* nav li:hover{
+    scale: 1;
+ } */
+.nav a{
+    text-decoration: none;
+    
+}
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container img{
+    position: absolute;
+   
+    
+    height: 50%;
+    bottom: 0;
+    /* left: -70px; */
+    object-fit: cover;
+}
+
+.obj{
+    margin-top:20rem;
+    object-fit: cover;
+    left: -70px;
+}
+
+.fuji{
+    /* height: 720px;
+    width: 1280px; */
+    width: 100%;
+    margin-bottom: 10%;
+    
+}
+
+.redSun{
+    
+    margin-bottom: 20%;
+    
+    height: auto;
+    width: auto;
+}
+
+.goji{
+    
+    margin-top: 17rem;
+    margin-left: 30rem;
+    height: auto;
+    width: auto;
+    
+}
+
+
+.img-plus{
+    width:clamp(auto, 10vw + 1rem, 100vw);
+}
+
+/* .aud-btn{
+    /* border: none;
+    /* padding: 3rem;
+    border-radius: 50px; 
+    z-index: 1000; 
+    
+} */
+
+/* .desc{
+    
+    
+    
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+.upimg img{
+    position: absolute;
+    
+    margin-right: 20rem;
+    
+    height: 50%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+
+    
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.obj1{
+    padding-top:35rem;
+    object-fit: cover;
+}
+
+.goji1{
+    
+    padding-top: 32rem;
+    padding-left: 50rem;
+    height: auto;
+    width: 25%;
+    
+}
+
+.wid{
+    text-align: center;
+    padding: 2rem;
+    padding-top: 20rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.wid ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.wid li{
+    margin-left: 4rem;
+    margin-right: 4rem;
+} */
